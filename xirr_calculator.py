@@ -666,7 +666,7 @@ def create_ui():
     if uploaded_files:
         st.success(f"{len(uploaded_files)} file(s) uploaded. The calculator will combine all data for analysis.")
     else:
-        st.info("Upload one or more CSV files containing your trading history. All calculations are performed locally.")
+        st.info("Upload multiple tradebook CSV files - they'll be automatically consolidated. All processing happens locally for privacy.")
     
     # Options
     with st.expander("Calculation Options"):
