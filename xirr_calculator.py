@@ -652,7 +652,7 @@ def create_ui():
     
     # UPLOAD SECTION WITH BACKGROUND
     st.markdown("<div class='upload-section'>", unsafe_allow_html=True)
-    st.markdown("### Upload Your Trading Data")
+    st.markdown("### Upload Your Tradebook")
     
     # File upload
     uploaded_files = st.file_uploader(
